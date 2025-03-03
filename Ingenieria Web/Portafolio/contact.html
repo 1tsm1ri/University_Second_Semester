@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <!-- Añadir tipografia importada -->
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <title>Portafolio </title>
+</head>
+
+<body>
+    <!-- PARTE SUPERIOR / BARRA DE NAVEGACION-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>  
+        </nav>
+        
+        <img src="https://media.tenor.com/IjX29sgxJVAAAAAi/sleeping-cute.gif" alt="zzz"/>
+    </header>
+
+    <h1>CONTACT FORM</h1>
+
+    <div class="container">
+        <form>
+            <!-- SIMPLE INPUTS -->
+            <fieldset>
+                <legend>BASIC INFORMATION</legend>
+                    <div class="form_input">
+                        <label for="nombre">Full name</label>
+                        <input type="text" placeholder="Steve Jobs"     id="nombre">
+                    </div>
+                    <div class="form_input">
+                        <label for="email">Mail</label>
+                        <input type="mail"  placeholder="example@gmail.com" id="email">
+                    </div>
+                    <div class="form_input">
+                        <label for="asunto">Subject</label>
+                        <input type="text" placeholder="Subject of your message" id="asunto">
+                    </div>
+            </fieldset>
+        
+        
+            <!-- TEXTAREA -->
+            <fieldset>
+                <legend>MESSAGE</legend>
+                    <div class="form_input">
+                        <textarea rows="7" placeholder="Leave your message..." id="mensaje"></textarea>
+                    </div>
+            </fieldset>
+
+            <div>
+                <button>Send</button>
+            </div>
+        
+        </form>
+    </div>
+    
+    <!-- ICONOS DE REDES -->
+    <div class="img_container">
+        <a class="icons_img" href="https://github.com/1tsm1ri">
+            <img src="/img/githubicon.png" alt="github">
+        </a>
+        <a class="icons_img" href="mailto:mariana.lemus@eia.edu.co">
+            <img src="/img/mailicon.png" alt="mail">
+        </a>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="footer">&copy; Made by Mariana. All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
